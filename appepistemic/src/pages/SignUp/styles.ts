@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-
 import { Platform } from 'react-native';
 import { getBottomSpace } from 'react-native-iphone-x-helper';
 
@@ -26,7 +25,7 @@ export const BackToSignIn = styled.TouchableOpacity`
   border-top-width: 1px;
   border-color: #232129;
   padding: 16px 0 ${16 + getBottomSpace()}px;
-  
+
   justify-content: center;
   align-items: center;
   flex-direction: row;

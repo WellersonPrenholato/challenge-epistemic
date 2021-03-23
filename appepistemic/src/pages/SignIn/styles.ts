@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-
 import { Platform } from 'react-native';
 import { getBottomSpace } from 'react-native-iphone-x-helper';
 
@@ -7,7 +6,6 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  <CreateAccountButton onPress={() => navigation.navigate('SignUp')}>
   padding: 0 30px ${Platform.OS === 'android' ? 150 : 40}px;
 `;
 
@@ -37,7 +35,7 @@ export const CreateAccountButton = styled.TouchableOpacity`
   border-top-width: 1px;
   border-color: #232129;
   padding: 16px 0 ${16 + getBottomSpace()}px;
-  
+
   justify-content: center;
   align-items: center;
   flex-direction: row;
